@@ -30,3 +30,8 @@ class Owner:
         return sorted(self._pets, key=lambda x: x.name)
 
 owner= Owner("Brianna")
+pet1 = Pet("Fido", "dog", owner)
+pet2 = Pet("Clifford", "dog", owner)
+pet3 = Pet("Whiskers", "cat", owner)
+pet4 = Pet("Jerry", "reptile", owner)
+print(owner.get_sorted_pets())
